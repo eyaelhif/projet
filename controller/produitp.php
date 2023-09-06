@@ -3,7 +3,7 @@ include 'C:/xampp/htdocs/lalou/config.php';
 
 //include 'C:/xampp/htdocs/produit/controller/produitp.php';
 class produitp { //record
-    public function listeproduit (){
+    public function listepro (){
     $sql = "SELECT * FROM produit";
     $db  = config ::getConnexion();
         try {
